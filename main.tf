@@ -40,3 +40,8 @@ output "repo_id" {
 output "branches" {
   value = github_repository.repo.branches
 }
+
+output "node_id" {
+  value = github_repository.repo.node_id
+}
+
