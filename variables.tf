@@ -95,7 +95,7 @@ variable "archive_on_destroy" {
 
 variable "topics" {
   type              = list(string)
-  default	          = null
+  default           = []
 }
 
 variable "vulnerability_alerts" {
