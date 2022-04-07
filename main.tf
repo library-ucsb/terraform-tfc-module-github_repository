@@ -29,6 +29,10 @@ output "full_name" {
   value = github_repository.repo.full_name
 }
 
+output "name" {
+  value = github_repository.repo.name
+}
+
 output "ssh_clone_url" {
   value = github_repository.repo.ssh_clone_url
 }
