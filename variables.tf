@@ -5,12 +5,12 @@ variable "name" {
 
 variable "description" {
   type 		          = string
-  default	          = null
+  default	          = ""
 }
 
 variable "homepage_url" {
   type 		          = string
-  default	          = null
+  default	          = ""
 }
 
 variable "visibility" {
@@ -75,12 +75,12 @@ variable "auto_init" {
 
 variable "gitignore_template" {
   type		          = string
-  default	          = null
+  default	          = ""
 }
 
 variable "license_template" {
   type		          = string
-  default	          = null
+  default	          = ""
 }
 
 variable "archived" {
